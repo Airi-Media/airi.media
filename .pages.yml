@@ -1,13 +1,40 @@
 media:
-  folder: uploads
+  input: uploads
+  output: /uploads
 
 content:
-  - name: pages
-    label: Website Pages
-    type: collection
-    folder: /
-    extension: html
-    fields:
-      - name: body
-        label: Raw HTML Content
-        type: text
+  - name: index
+    label: Home Page
+    type: file
+    path: index.html
+    format: code
+
+  - name: careers
+    label: Careers Page
+    type: file
+    path: careers.html
+    format: code
+
+  - name: contact
+    label: Contact Us
+    type: file
+    path: contact-us.html
+    format: code
+
+  - name: partnerships
+    label: Partnerships
+    type: file
+    path: partnerships.html
+    format: code
+
+  - name: privacy
+    label: Privacy Policy
+    type: file
+    path: privacy-policy.html
+    format: code
+
+  - name: projects
+    label: Projects
+    type: file
+    path: projects.html
+    format: code
