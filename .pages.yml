@@ -1,1 +1,13 @@
- 
+media:
+  folder: uploads
+
+content:
+  - name: pages
+    label: Website Pages
+    type: collection
+    folder: /
+    extension: html
+    fields:
+      - name: body
+        label: Raw HTML Content
+        type: text
